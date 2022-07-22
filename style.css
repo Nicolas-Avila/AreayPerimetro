@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+.result{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    color: aliceblue;
+    
+}
+
+.resultado{
+    width: 53.5%;
+    background-color: rgba(127, 0, 246, 0.629);
+    margin-left: 10px;
+    border: double 15px black;
+}
+#resultado, #Resultado-Rectangulo, #Resultado-Triangulo, #Area{
+   background-color: rgba(127, 0, 246, 0.057);
+   text-align: center;
+   font-size: 2em;
+   margin:auto;
+   margin-bottom: 25px;
+ }
+ #Area{
+    margin-top: 50px;
+   
+ }
+ .resultado h2{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+
+ }
+.cont-cuadrado{
+    background-color: rgba(127, 0, 246, 0.629);
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 10px;   
+    font-size: 1em;
+    border: double 15px black;
+        
+}
+
+.cont-cuadrado h2{
+    font-size: 2em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.cont-cuadrado label{
+    font-size: 1.5em;
+}
+.cont-cuadrado input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 60%;
+    font-size: 1.5em;
+    text-align: center;
+}
+#boto{
+    margin-bottom: 25px;
+}
+
+.cont-cuadrado button{
+    font-size: 1em;
+    margin: 2px;
+    width: 58%;
+    
+}
+

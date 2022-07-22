@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Perimetros</title>
+</head>
+
+<body>
+    <h1>Calcule sus Perimetros y Areas</h1>
+    <!-- CUADRADO -->
+    <div class="result">
+        <div class="cont-cuadrado">
+            <h2>CUADRADO</h2>
+            <input type="number" name="" id="cuadrado" placeholder="Ingrese el valor de un lado">
+            <button onclick="CalculaPerimetro()">Calcular perimetro</button>
+            <button id="boto" onclick="CalcularArea()">Calcular area</button>
+        </div>
+        <div class="resultado">
+            <h2>RESULTADO</h2>
+            <p id="resultado"></p>
+        </div>
+    </div>
+
+<!-- RECTANGULO -->
+    <div class="result">
+        <div class="cont-cuadrado">
+            <h2>RECTANGULO</h2>
+            <input type="number" name="" id="medida1" placeholder="Ingrese la base">
+            <input type="number" name="" id="medida2" placeholder="Ingrese la altuna">
+            <button onclick="PeriRectangulo()">Calcular Perimetro</button>
+            <button id="boto" onclick="AreaRectangulo()">Calcular Area</button>
+        </div>
+        <div class="resultado">
+            <h2>RESULTADO</h2>
+            <p id="Resultado-Rectangulo"></p>
+        </div>
+    </div>
+
+    <!-- TRIANGULO  -->
+    <div class="result">
+        <div class="cont-cuadrado">
+            <h2>TRIANGULO</h2>
+            <input type="number" name="" id="lado1" placeholder="ingrese el primer lado">
+            <input type="number" name="" id="lado2" placeholder="Ingrese el segundo lado">
+            <input type="number" name="" id="lado3" placeholder="Ingrese el tercer lado">
+            <button onclick="PerimetroTriangulo()">Calcular Perimetro</button>
+            <input type="number" name="" id="lado4" placeholder="Ingrese la base">
+            <input type="number" name="" id="lado5" placeholder="Ingrese la altura">
+            <button id="boto" onclick="AreaTriangulo()">Calcular Area</button>
+        </div>
+        <div class="resultado">
+            <h2>RESULTADO</h2>
+            <p id="Resultado-Triangulo"></p>
+            <p id="Area"></p>
+        </div>
+    </div>
+
+
+
+    <script src="/cuentas.js"></script>
+</body>
+
+</html>
